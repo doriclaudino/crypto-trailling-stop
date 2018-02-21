@@ -1,0 +1,7 @@
+
+node_modules/
+npm-debug.log
+package-lock.json
+json/db.json
+json/db_trailling_stop3.json
+js/trailling-stop.js

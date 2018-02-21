@@ -1,0 +1,34 @@
+{
+  "name": "crypto-trailling-stop",
+  "version": "0.0.1",
+  "description": "make trailling stop to current open trades",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/doriclaudino/crypto-trailling-stop.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "ccxt",
+    "crypto"
+  ],
+  "author": "doriclaudino",
+  "license": "ISC",
+  "bin": {
+    "cryptostop": "./js/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/doriclaudino/crypto-trailling-stop/issues"
+  },
+  "homepage": "https://github.com/doriclaudino/crypto-trailling-stop#readme",
+  "dependencies": {
+    "ccxt": "^1.10.1169",
+    "commander": "^2.14.1",
+    "log4js": "^2.5.3",
+    "lowdb": "^1.0.0"
+  }
+}
